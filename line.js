@@ -13,8 +13,9 @@ const delete_line = () => {
   console.log("Start to delete");
   while (document.querySelector("#chin").checked === true) {
     q_lick(
-      "#__next > div > main > div.listLayout_home_list_wrap__2URon.listLayout_type_center__pXhQY > div.feedListLayout_feed_list__FyxQT > article:nth-child(1) > div.postHeaderLayout_post_header___tu5E > div.postButtonLayout_post_button_wrap__v8E6p > div > button > i"
+      "#__next > div > main > div.listLayout_home_list_wrap__2URon.listLayout_type_center__pXhQY > div.feedListLayout_feed_list__FyxQT > article:nth-child(10) > div.postHeaderLayout_post_header___tu5E > div.postButtonLayout_post_button_wrap__v8E6p > div > button > i"
     );
+    q_lick("")
   }
 };
 //

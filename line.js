@@ -18,6 +18,10 @@ const delete_line = () => {
     q_lick("")
   }
 };
+const style = () => {
+  document.querySelector("body").innerHTML += `<style></>`
+  
+};
 //
 //
 //
